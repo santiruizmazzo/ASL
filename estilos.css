@@ -1,0 +1,221 @@
+html {scroll-behavior: smooth}
+.a {color: rgb(82, 101, 140); text-decoration: none; display: inline-block; padding: 5px;}
+.a:hover {background: rgb(190, 190, 190); text-decoration: none;}
+
+#global {text-align: justify; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px;}
+
+#arriba {background: rgb(255, 255, 255) no-repeat; overflow: hidden; position: fixed; top: 0px; left: 0px; right: 0px; box-shadow: 0px 1px 10px rgb(0, 0, 0); z-index: +4;}
+
+#flecha {width: 50px; height: 50px; position: fixed; bottom: 20px; right: 20px; background: url('archivos/flecha7.png') no-repeat; outline: none; cursor: pointer; display: none; border: none; background-position: -25px 0px; border-radius: 15px; z-index: +2;}
+
+#arriba-li-img {margin-left: 20px; float: left;}
+#arriba-li-img a {display: block; padding: 0px; position: relative; top: 5px; margin: 0;}
+#arriba-li-img a:hover {background: none;}
+#arriba-li-img a img {height: 40px; width: 40px;}
+
+#iniciarsesion-li {margin-left: 40px; float: left}
+#iniciarsesion-li button {cursor: pointer; color: rgb(119, 101, 96); border: none; background: none; font: 18px 'Oswald'; height: 51px; outline: none; width: 215px}
+#iniciarsesion-li button:hover {background: rgb(119, 101, 96); color: rgb(216, 184, 175)}
+#perfil {position: relative; top: 2px; right: 7px;}
+
+#centro {position: absolute; left: 420px;}
+#formulario {font-family: Oswald;}
+#campobusqueda {background: rgb(255, 255, 255); width: 400px; height: 32px; font: 18px Oswald; box-sizing: border-box; outline: none; border: 2px rgb(82, 101, 140) solid; border-radius: 5px; padding: 6px; margin-top: 10px; color: rgb(0, 0, 0);}
+
+.arriba-ul {font-family: 'Oswald'; font-size: 18px; margin: 0px; padding: 0px; list-style-type: none; overflow: hidden;}
+.arriba-ul li {float: right;}
+.arriba-ul li a {text-decoration: none; display: block; color: rgb(82, 101, 140); padding-top: 13px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin-right: 5px; height: 28px}
+.arriba-ul li a:hover {background: rgb(82, 101, 140); color: rgb(138, 173, 241);}
+
+#activo {color: rgb(138, 173, 241); background: rgb(82, 101, 140);}
+
+#medio {background: rgb(255, 255, 255); height: 3600px; overflow: hidden; position: static;}
+#medio1-1 {background: rgb(255, 255, 255); height: 3900px; overflow: hidden; position: static;}
+#medio2 {background: rgb(255, 255, 255); height: 2500px; overflow: hidden; position: static;}
+#medio3 {background: rgb(255, 255, 255); height: 920px; overflow: hidden; position: static;}
+#medio4 {background: rgb(255, 255, 255); height: 820px; overflow: hidden; position: static;}
+#medio5 {background: rgb(255, 255, 255); height: 920px; overflow: hidden; position: static;}
+#medio6 {background: rgb(255, 255, 255); height: 1020px; overflow: hidden; position: static;}
+#medio7 {background: rgb(255, 255, 255); height: 1260px; overflow: hidden; position: static;}
+#medio8 {background: rgb(255, 255, 255); height: 545px; overflow: hidden; position: static;}
+#medio9 {background: rgb(255, 255, 255); height: 1100px; overflow: hidden; position: static;}
+#medio10 {background: rgb(255, 255, 255); height: 1300px; overflow: hidden; position: static;}
+#medio11 {background: rgb(255, 255, 255); height: 1200px; overflow: hidden; position: static;}
+#medio12 {background: rgb(255, 255, 255); height: 1500px; overflow: hidden; position: static;}
+#medio13 {background: rgb(255, 255, 255); height: 1500px; overflow: hidden; position: static;}
+#interno {background: url("archivos/gente-oficina6.png") no-repeat; height: 840px; width: 100%; background-position: -10px 10px;}
+
+.anuncios {margin-bottom: 20px; margin-left: 400px; cursor: pointer; display: inline-block}
+
+.titulo {font: 70px 'HP Simplified'; margin-top: 50px; margin-left: 50px; margin-bottom: 0px; color: rgb(82, 101, 140);}
+.parrafo {font: 35px 'HP Simplified'; color: rgb(82, 101, 140); margin-left: 137px; margin-top: 0px}
+
+#aver {height: 724px; width: 900px; margin-left: 233px; display: flex; flex-wrap: wrap; background: rgb(255, 255, 255)}
+.caca {width: 170px; height: 170px; background-color: rgb(118, 146, 202); margin: 5px; transition: background-color 0.4s; border-radius: 5px; cursor: pointer;}
+.caca a {text-decoration: none}
+.caca p {font: 28px 'Oswald'; color: rgb(0, 0, 0); text-align: center;}
+.caca:hover {background-color: rgb(176, 202, 255);}
+
+.caca2 {width: 170px; height: 170px; background-color: rgb(133, 166, 231); margin: 5px; transition: background-color 0.4s; border-radius: 5px; cursor: pointer;}
+.caca2 p {font: 28px 'Oswald'; color: rgb(0, 0, 0); text-align: center; }
+.caca2:hover {background-color: rgb(176, 202, 255);}
+
+.caca3 {width: 170px; height: 170px; background-color: rgb(98, 121, 168); margin: 5px; transition: background-color 0.4s; border-radius: 5px; cursor: pointer;}
+.caca3 a {text-decoration: none}
+.caca3 p {font: 28px 'Oswald'; color: rgb(0, 0, 0); text-align: center;}
+.caca3:hover {background-color: rgb(176, 202, 255);}
+
+.caca4 {width: 170px; height: 170px; background-color: rgb(60, 74, 102); margin: 5px; transition: background-color 0.4s; border-radius: 5px; cursor: pointer;}
+.caca4 p {font: 28px 'Oswald'; color: rgb(0, 0, 0); text-align: center;}
+.caca4:hover {background-color: rgb(176, 202, 255);}
+
+#cambio {width: 100%; height: 480px; background: url("archivos/transición.png") rgb(82, 101, 140) no-repeat; background-position: -280px -1px; position: relative; top: 60px;}
+.texto {text-align: center; font: 55px 'HP Simplified'; color: white; position: relative; top: 160px; z-index: +1;}
+.transicion {position: relative; left: -280px; top: 59px}
+
+#industria {margin-left: 80px; margin-top: 100px}
+.texto2 {width: 720px; border-radius: 20px; background: rgb(103, 127, 175); font: 55px 'HP Simplified'; color: rgb(255, 255, 255); text-align: center; display: inline-block; position: relative; top: -55px; left: 50px;}
+.texto3 {font: 40px 'Oswald'; color: rgb(58, 71, 97); position: relative; left: 130px; top: -40px;}
+#lista {font: 32px 'Oswald'; color: rgb(82, 101, 140); position: relative; left: 230px; top: -70px}
+
+#abajo {background: rgb(209, 209, 209); height: 80px;}
+#abajo p {font: 17px 'Oswald'; position: relative; top: -11px; margin-left: 9px; margin-right: 65px; display: inline-block; color: rgb(82, 101, 140)}
+#abajo a {text-decoration: none; color: rgb(33, 40, 54)}
+#abajo a:hover {color: rgb(114, 139, 184); text-shadow: 0px 1px 1px}
+
+.logo {width: 40px; height: 40px;  display: inline-block; position: relative; top: 11px; left: 8px}
+#datafiscal {position: relative; left: 130px; top: 10px; height: 61px; width: 39; display: inline-block;}
+
+.encabezado {height: 200px; background: rgb(82, 101, 140); width: 100%;}
+.cabeza {font: 120px 'HP Simplified'; color: rgb(255, 255, 255); position: relative; top: -40px; text-align: center; z-index: +1;}
+.transicion2 {position: relative; left: -280px; top: -1px}
+.desarrollo {font: 25px 'Oswald'; color: rgb(82, 101, 140); margin-left: 50px; margin-right: 50px}
+#contenedor {display: flex; padding: 2px; position: relative; top: 30px}
+.socios {border-radius: 10px; background: rgb(92, 113, 156); width: 200px; height: 300px; display: inline-block; margin: 10px; position: relative; left: 240px; transition: box-shadow 0.2s;}
+.socios:hover {box-shadow: rgb(65, 81, 110) 5px 5px 2px;}
+.socios p {text-align: center; position: relative; top: 40px; font: 20px 'HP Simplified'; color: white}
+.carasocio {position: relative; left: 50px; top: 40px; width: 98px; height: 101px}
+#talis {font: 25px 'Oswald'; color: rgb(82, 101, 140); margin-left: 50px; margin-right: 50px}
+
+#resultado {font: 25px 'Oswald'; color: rgb(82, 101, 140); position: relative; right: 675px; display: inline-block; top: 10px}
+#lupa {position: relative; left: 410px; top: 18px; display: inline-block}
+
+#ad {position: absolute; left: 120px; top: 550px; cursor: pointer}
+#ad2 {position: absolute; left: 150px; top: 1400px; cursor: pointer;}
+#ad4 {position: absolute; left: 125px; top: 2100px; cursor: pointer;}
+#ad5 {position: absolute; left: 450px; top: 3750px; cursor: pointer;}
+#ad6 {position: absolute; left: 150px; top: 2950px; cursor: pointer;}
+
+#publicar {position: relative; left: 580px; top: -30px;}
+#publicar button {background: rgb(119, 101, 96); border: none; cursor: pointer; font: 35px "Oswald"; border-radius: 8px; color: rgb(216, 184, 175); transition: box-shadow 0.2s; outline: none}
+#publicar button:hover {box-shadow: rgb(90, 78, 74) 5px 5px 2px}
+
+.encabezado2 {height: 200px; background: rgb(119, 101, 96); width: 100%;}
+.desarrollo2 {font: 25px 'Oswald'; color: rgb(119, 101, 96); margin-left: 50px; margin-right: 50px}
+.titulo2 {font: 50px 'HP Simplified'; margin-top: 50px; margin-left: 50px; margin-bottom: 0px; color: rgb(119, 101, 96);}
+#medio9 hr {width: 1250px; height: 1px; background: rgb(119, 101, 96); border-radius: 15px}
+
+.faq {font: 25px 'Oswald'; color: rgb(119, 101, 96); margin-left: 50px; margin-right: 50px}
+
+#categoria {font: 60px 'HP Simplified'; position: relative; top: 50px; left: 370px; color: rgb(255, 255, 255); text-align: center; display: block; background: rgb(82, 101, 140); width: 680px; border-radius: 20px}
+.ad7 {position: absolute; top: 170px; left: 90px; cursor: pointer}
+#resultado2 {font: 25px 'Oswald'; color: rgb(82, 101, 140); position: relative; left: 475px; display: inline-block; top: 0px}
+#lupa2 {display: inline-block; position: relative; left: 470px; top: 7px}
+.anuncios2 {position: absolute; left: 360px; top: 300px; cursor: pointer;}
+.anuncios3 {position: absolute; left: 360px; top: 470px; cursor: pointer;}
+.anuncios4 {position: absolute; left: 360px; top: 590px; cursor: pointer;}
+.anuncios5 {position: absolute; left: 360px; top: 712px; cursor: pointer;}
+.anuncios6 {position: absolute; left: 360px; top: 420px; cursor: pointer;}
+.anuncios7 {position: absolute; left: 360px; top: 540px; cursor: pointer;}
+
+#anunciopersonal {width: 700px; height: 760px; position: absolute; left: 333px; top: 90px; border: 2px rgb(82, 101, 140) solid; background: url("archivos/transición7.png") no-repeat; background-position: -1px -50px; border-radius: 7px}
+#anunciopersonal2 {width: 700px; height: 855px; position: absolute; left: 333px; top: 100px; border: 2px rgb(82, 101, 140) solid; background: url("archivos/transición7.png") no-repeat; background-position: -1px -50px; border-radius: 7px}
+#anunciopersonal3 {width: 700px; height: 855px; position: absolute; left: 333px; top: 190px; border: 2px rgb(82, 101, 140) solid; background: url("archivos/transición7.png") no-repeat; background-position: -1px -50px; border-radius: 7px}
+#desarrollo {font: 18px "Oswald"; color: rgb(51, 63, 87); position: relative; left: 80px; right: 15px; display: inline-block}
+#titulito {font: 30px "HP Simplified"; color: white; position: relative; left: 20px; top: -10px}
+.hacheerre {width: 680px; height: 1px; margin-top: -37px; border-radius: 5px; background: rgb(192, 192, 192); border: none}
+.hacheerre2 {width: 680px; height: 2px; border-radius: 5px; background: rgb(192, 192, 192); border: none}
+#empresa {font: 18px "HP Simplified"; color: white; position: relative; left: 20px; top: -10px}
+#loguito {width: 150px; height: 100px; position: absolute; top: 140px; left: 450px}
+#loguito2 {width: 150px; height: 100px; position: absolute; top: 170px; left: 450px}
+.anuncios8 {position: absolute; top: 150px; left: 80px; cursor: pointer}
+#desarrollo2 {font: 18px "Oswald"; color: rgb(51, 63, 87); position: relative; display: inline-block; margin-top: 0px; margin-right: 15px; margin-left: 15px}
+#listilla {font: 18px "Oswald"; color: rgb(51, 63, 87); margin-right: 15px; margin-left: 15px; margin-top: -14px}
+.postularme {border: 2px rgb(82, 101, 140) solid; background: rgb(82, 101, 140); outline: none; cursor: pointer; display: block; font: 22px "HP Simplified"; color: rgb(255, 255, 255); border-radius: 5px; position: relative; left: 284px; top: 10px; transition: box-shadow 0.2s}
+.postularme:hover {box-shadow: rgb(49, 61, 85) 5px 5px 2px}
+.cv {text-decoration: none}
+
+.postularme2 {border: 2px rgb(82, 101, 140) solid; background: rgb(82, 101, 140); outline: none; cursor: pointer; display: block; font: 22px "HP Simplified"; color: rgb(255, 255, 255); border-radius: 5px; position: absolute; left: 615px; top: 1180px; transition: box-shadow 0.2s}
+.postularme2:hover {box-shadow: rgb(49, 61, 85) 5px 5px 2px}
+.cv2 {text-decoration: none}
+
+#curriculum {position: absolute; top: 250px; left: 283px; width: 800px; height: 900px; border: 2px rgb(82, 101, 140) solid; border-radius: 7px}
+.franja {width: 800px; height: 180px; background: rgb(82, 101, 140)}
+#fotocv {width: 95px; height: 95px; position: relative; top: 15px; left: 352px}
+#nombrecv {font: 35px "HP Simplified"; position: relative; text-align: center; color: white; margin-top: 20px}
+#editar {position: absolute; top: 15px; left: 755px; cursor: pointer}
+.grupo {font: 20px "Oswald"; color: rgb(51, 63, 87); text-align: center}
+.separador {border: none; background: rgb(82, 101, 140); height: 1px; width: 720px}
+
+.cabecera {font: 40px "HP Simplified"; text-align: center; color: rgb(82, 101, 140); position: relative; top: 55px;}
+#tick {position: absolute; left: 590px; top: 300px; width: 200px; height: 200px}
+#correcto {font: 60px "HP Simplified"; color: rgb(51, 63, 87); text-align: center; margin-top: 120px; margin-bottom: -20px}
+#correcto2 {font: 40px "HP Simplified"; color: rgb(82, 101, 140); text-align: center;}
+#map {width: 945px; height: 459px; border: 3px rgb(82, 101, 140) solid; position: absolute; top: 750px; left: 210px; background: url("archivos/mapa.PNG"); cursor: move}
+
+#puesto {width: 650px; height: 30px; position: absolute; top: 15px; left: 20px; border-radius: 5px; font: 20px "HP Simplified"; padding: 2px}
+.hacheerre3 {width: 680px; height: 1px; border-radius: 5px; background: rgb(192, 192, 192); border: none; position: relative; top: 50px}
+#nombre {width: 650px; height: 20px; position: absolute; top: 65px; left: 20px; border-radius: 5px; font: 16px "HP Simplified"; padding: 2px}
+.hacheerre4 {width: 680px; height: 2px; border-radius: 5px; background: rgb(192, 192, 192); border: none; position: relative; top: 340px;}
+#descripcion1 {position: relative; top: 140px; left: 20px; font: 15px "HP Simplified"; width: 300px; height: 160px}
+#descripcion2 {position: absolute; top: 380px; left: 20px; font: 15px "HP Simplified"; width: 655px; height: 450px}
+#insertar {position: absolute; top: 200px; right: 120px; cursor: pointer}
+
+.desc {font: 25px "Oswald"; position: absolute; top: 378px; left: 542px; color: rgb(82, 101, 140); text-align: center}
+.desc2 {font: 25px "Oswald"; position: absolute; top: 690px; left: 542px; color: rgb(82, 101, 140); text-align: center}
+.desc3 {font: 25px "Oswald"; position: absolute; top: 1068px; left: 549px; color: rgb(82, 101, 140); text-align: center}
+#tipo1 {position: absolute; top: 450px; left: 330px; cursor: pointer;}
+#tipo2 {position: absolute; top: 760px; left: 330px; cursor: pointer;}
+#tipo3 {position: absolute; top: 1140px; left: 330px; cursor: pointer;}
+
+.next {text-decoration: none}
+.siguiente {border: 2px rgb(82, 101, 140) solid; background: rgb(82, 101, 140); outline: none; cursor: pointer; display: block; font: 22px "HP Simplified"; color: rgb(255, 255, 255); border-radius: 5px; position: absolute; left: 635px; top: 1100px; transition: box-shadow 0.2s}
+.siguiente:hover {box-shadow: rgb(49, 61, 85) 5px 5px 2px}
+
+#form {border: 2px rgb(82, 101, 140) solid; position: relative; top: 70px; left: 283px; width: 800px; height: 715px; border: 2px rgb(82, 101, 140) solid; border-radius: 7px}
+
+.titulo3 {font: 70px 'HP Simplified'; margin-left: 50px; margin-bottom: 0px; color: rgb(255, 255, 255); position: absolute; top: 10px; left: 210px}
+#hr121 {width: 950px; height: 0px; background: rgb(50, 62, 87); border-radius: 15px; position: absolute; top: 642px; left: 220px}
+#hr122 {width: 950px; height: 0px; background: rgb(50, 62, 87); border-radius: 15px; position: absolute; top: 1005px; left: 220px}
+
+.encabezado3 {height: 100px; background: rgb(82, 101, 140); width: 100%;}
+#fotocompra {width: 55px; height: 55px; margin-left: 20px; margin-top: 20px; margin-right: 10px; display: inline-block}
+#nombrecompra {font: 25px "HP Simplified"; text-align: center; color: white; display: inline-block; position: relative; top: -17px; left: -85px}
+#info1 {padding: 4px; background: rgb(61, 75, 104); font: 21px "Oswald"; color: rgb(255, 255, 255); display: inline-block; position: relative; top: 40px; left: -400px}
+#info2 {padding: 4px; background: rgb(61, 75, 104); font: 21px "Oswald"; color: rgb(255, 255, 255); display: inline-block; position: relative; left: 41px}
+#info3 {padding: 4px; background: rgb(61, 75, 104); font: 21px "Oswald"; color: rgb(255, 255, 255); display: inline-block; position: relative; left: -115px; top: -43px}
+#info4 {padding: 4px; background: rgb(61, 75, 104); font: 21px "Oswald"; color: rgb(255, 255, 255); display: inline-block; position: relative; left: 409px; top: -81px}
+#detalle {width: 400px; height: 470px; background: rgb(228, 228, 228); margin-left: 200px; margin-top: 30px}
+#titulodetalle {color: rgb(50, 62, 87); font: 20px "Oswald"; position: relative; top: 20px; left: 107px; display: inline-block; margin: 0px}
+#tipodetalle {font: 20px "Oswald"; position: relative; top: 0px; left: 20px; display: inline-block; margin: 0px;}
+#detalle hr {width: 360px; border: none; height: 1px; background: grey; margin-bottom: 0px; margin: 20px}
+#tipo {outline: none; width: 90px; height: 40px; font: 18px "Oswald"; border: none; display: inline-block; position: relative; left: 25px; top: 0px;}
+#cantidaddetalle {font: 20px "Oswald"; position: relative; top: 10px; left: 20px; margin: 0px; display: inline-block}
+#cantidad {outline: none; width: 50px; height: 40px; font: 18px "Oswald"; border: none; display: inline-block; position: relative; left: 25px; top: 10px; text-align: center}
+#totaldetalle {font: 20px "Oswald"; position: relative; top: 0px; left: 20px; margin: 0px; display: inline-block}
+#total {outline: none; width: 110px; height: 40px; font: 18px "Oswald"; border: none; display: inline-block; position: relative; left: 25px; top: 0px; text-align: center}
+#tarjetadetalle {font: 20px "Oswald"; position: relative; top: 40px; left: 20px; margin: 0px; display: inline-block}
+#opcionestarjeta {font: 20px "Oswald"; position: relative; top: 50px; left: 80px;}
+#opcionestarjeta li {position: relative; top: -20px}
+
+
+
+
+
+
+#botonjs {position: absolute; top: 80px; left: 100px; background: none; font: 25px "Oswald"; border: 2px rgb(82, 101, 140) solid; color: rgb(82, 101, 140); outline: none; cursor: pointer;}
+#botonjs:hover {background: rgb(82, 101, 140); color: white}
+#script1 {position: absolute; top: 320px; left: 100px; font: 20px "Oswald"; display: inline-block;}
+#pruebascript {font: 20px "Oswald";}
+#window {border-radius: 10px; width: 180px; height: 180px; position: absolute; top: 123px; left: 100px; background: rgb(206, 206, 206); display: none}
+#fotocuenta3 {width: 50px; height: 50px; position: relative; left: 65px; top: 65px}
